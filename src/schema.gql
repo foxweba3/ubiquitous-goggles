@@ -1,0 +1,12 @@
+scalar Text
+scalar BigInt
+
+type Transfers {
+  id: String!
+  token: String!
+  from: String!
+  to: String!
+  value: BigInt!
+  created_at: Int!
+  created_at_block: Int!
+}
