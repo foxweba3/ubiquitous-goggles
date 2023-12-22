@@ -1,0 +1,16 @@
+{
+  "network_node_url": "https://rpc.brovider.xyz/5",
+  "sources": [
+    {
+      "contract": "0x000000000000cd17345801aa8147b8D3950260FF",
+      "start": 6102403,
+      "abi": "Poster",
+      "events": [
+        {
+          "name": "NewPost(address,string,string)",
+          "fn": "handleNewPost"
+        }
+      ]
+    }
+  ]
+}
